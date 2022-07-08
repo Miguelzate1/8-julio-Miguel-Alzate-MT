@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+background-image: url('https://ca-times.brightspotcdn.com/dims4/default/87be6da/2147483647/strip/true/crop/1970x1108+39+0/resize/1200x675!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F12%2Fa5%2F79e097ccf62312d18a025f22ce48%2Fhoyla-recuento-11-cosas-aman-gatos-top-001');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100vh;
+color: #000;
+font-family: 'Edu SA Beginner', cursive; 
+
+
+}
+nav{
+background-color:rgba(119, 136,153, 0.2);
+width: 100%;
+
+}
+
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+.lista a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 50px;
+
+
+}
+#menu .lista{
+display: inline-block;
+}
+
+main{
+    text-align: center;
+}
+
+img{
+margin-top: 10px;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+border: 10px solid white;
+
+
+}
+.lista-r{
+float: right;
+}
+.lista a:hover{
+    background-color: tomato;
+}
